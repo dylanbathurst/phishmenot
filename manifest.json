@@ -12,6 +12,5 @@
       "js": ["contentScript.js"]
     }
   ],
-  "icons": {},
-  "permissions": ["tabs", "storage", "webRequest", "activeTab"]
+  "icons": {}
 }
