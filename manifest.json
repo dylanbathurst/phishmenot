@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "short_name": "phishmenot",
+  "name": "Phish Me Not",
+  "description": "",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "run_at": "document_start",
+      "css": ["phishmenot.css"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {},
+  "permissions": ["tabs", "storage", "webRequest", "activeTab"]
+}

@@ -1,0 +1,78 @@
+.phishmenot-container {
+  display: flex;
+  flex-direction: column;
+  z-index: 999999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: #ddd 0rem 0rem 0.4rem;
+  filter: unset;
+}
+
+.phishmenot-close {
+  align-self: flex-end;
+  border: none;
+  margin: 0.75rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.phishmenot-close > svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: white;
+}
+
+.phishmenot-link {
+  background-color: white;
+  color: #333;
+  margin: 1rem;
+  padding: 0.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.phishmenot-link-origin {
+  font-weight: 700;
+}
+
+.phishmenot-link-origin > svg {
+  height: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.phishmenot-link-path {
+  opacity: 0.3;
+}
+
+.phishmenot-link-hook::before {
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  background-size: 1rem 1rem;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNOSAxNi4xNyA0LjgzIDEybC0xLjQyIDEuNDFMOSAxOSAyMSA3bC0xLjQxLTEuNDFMOSAxNi4xN3oiLz48L3N2Zz4=');
+  transform: translateY(0.25rem);
+  margin-right: 0.25rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.phishmenot-continue {
+  background-color: dodgerblue;
+  font-weight: 600;
+  border: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.2rem;
+  color: white;
+}
+
+body.phishmenot .nH {
+  filter: blur(1px);
+}
