@@ -8,7 +8,7 @@ Instead the user sees a dialog prompt displaying the actual url of the link.
 
 If the link looks suspicious the user should not proceed to the webpage. If it looks ok the user can click the "Go to link" button in the prompt which will open the link as normal.
 
-Supported Email Clients
-[x] Gmail
-[] Outlook
-[] Hotmail
+## Supported Email Clients
+- [x] Gmail
+- [ ] Outlook
+- [ ] Hotmail
